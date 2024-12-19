@@ -1,0 +1,364 @@
+<recPhylo 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.recg.org ./recGeneTreeXML.xsd"
+	xmlns="http://www.recg.org">
+<spTree>
+<phylogeny>
+<clade>
+		<name>s2</name>
+	<clade>
+			<name>s4</name>
+		<clade>
+				<name>s5</name>
+			<clade>
+					<name>Hordeum.vulgare</name>
+			</clade>
+			<clade>
+					<name>Triticum.aestivum</name>
+			</clade>
+		</clade>
+		<clade>
+				<name>s6</name>
+			<clade>
+					<name>Oryza.sativa</name>
+			</clade>
+			<clade>
+					<name>Zea.mays</name>
+			</clade>
+		</clade>
+	</clade>
+	<clade>
+			<name>s1</name>
+		<clade>
+				<name>s0</name>
+			<clade>
+					<name>s7</name>
+				<clade>
+						<name>s8</name>
+					<clade>
+							<name>Arabidopis.thaliana</name>
+					</clade>
+					<clade>
+							<name>Brassica.oleracea</name>
+					</clade>
+				</clade>
+				<clade>
+						<name>s9</name>
+					<clade>
+							<name>s10</name>
+						<clade>
+								<name>s11</name>
+							<clade>
+									<name>Citrillus.lanatus</name>
+							</clade>
+							<clade>
+									<name>Cucumis.sativus</name>
+							</clade>
+						</clade>
+						<clade>
+								<name>Malus.domestica</name>
+						</clade>
+					</clade>
+					<clade>
+							<name>Glycine.max</name>
+					</clade>
+				</clade>
+			</clade>
+			<clade>
+					<name>s15</name>
+				<clade>
+						<name>Beta.vulgaris</name>
+				</clade>
+				<clade>
+						<name>s12</name>
+					<clade>
+							<name>s13</name>
+						<clade>
+								<name>s14</name>
+							<clade>
+									<name>Capsicum.annum</name>
+							</clade>
+							<clade>
+									<name>Solanum.tuberosum</name>
+							</clade>
+						</clade>
+						<clade>
+								<name>Coffea.canephora</name>
+						</clade>
+					</clade>
+					<clade>
+							<name>Daucus.carota</name>
+					</clade>
+				</clade>
+			</clade>
+		</clade>
+		<clade>
+				<name>s3</name>
+			<clade>
+					<name>Amborella.trichopoda</name>
+			</clade>
+			<clade>
+					<name>Marchantia.polymorpha</name>
+			</clade>
+		</clade>
+	</clade>
+</clade>
+</phylogeny>
+</spTree>
+<recGeneTree>
+<phylogeny rooted="true">
+<clade>
+	<name>NULL</name>
+	<eventsRec>
+		<speciation speciesLocation="s0"/>
+	</eventsRec>
+	<clade>
+		<name>NULL</name>
+		<eventsRec>
+			<speciation speciesLocation="s7"/>
+		</eventsRec>
+		<clade>
+			<name>NULL</name>
+			<eventsRec>
+				<speciation speciesLocation="s9"/>
+			</eventsRec>
+			<clade>
+				<name>NULL</name>
+				<eventsRec>
+					<duplication speciesLocation="Glycine.max"/>
+				</eventsRec>
+				<clade>
+					<name>Glycine.max_KRH64606</name>
+					<eventsRec>
+						<leaf speciesLocation="Glycine.max"/>
+					</eventsRec>
+				</clade>
+				<clade>
+					<name>Glycine.max_KRH53310</name>
+					<eventsRec>
+						<leaf speciesLocation="Glycine.max"/>
+					</eventsRec>
+				</clade>
+			</clade>
+			<clade>
+				<name>NULL</name>
+				<eventsRec>
+					<speciation speciesLocation="s10"/>
+				</eventsRec>
+					<clade>
+					<name>loss</name>
+					<eventsRec>
+						<loss speciesLocation="Malus.domestica"/>
+					</eventsRec>
+				</clade>
+				<clade>
+					<name>NULL</name>
+					<eventsRec>
+						<speciation speciesLocation="s11"/>
+					</eventsRec>
+					<clade>
+						<name>Citrillus.lanatus_Cla97C09G183270.1</name>
+						<eventsRec>
+							<leaf speciesLocation="Citrillus.lanatus"/>
+						</eventsRec>
+					</clade>
+					<clade>
+						<name>NULL</name>
+						<eventsRec>
+							<branchingOut speciesLocation="Cucumis.sativus"/>
+						</eventsRec>
+						<clade>
+							<name>Cucumis.sativus_KGN44204</name>
+							<eventsRec>
+								<leaf speciesLocation="Cucumis.sativus"/>
+							</eventsRec>
+						</clade>
+						<clade>
+							<name>Amborella.trichopoda_ERN05365</name>
+							<eventsRec>
+								<transferBack destinationSpecies="Amborella.trichopoda"/>
+								<leaf speciesLocation="Amborella.trichopoda"/>
+							</eventsRec>
+						</clade>
+					</clade>
+				</clade>
+			</clade>
+		</clade>
+		<clade>
+			<name>NULL</name>
+			<eventsRec>
+				<speciation speciesLocation="s8"/>
+			</eventsRec>
+			<clade>
+				<name>Arabidopis.thaliana_AT4G37925.1</name>
+				<eventsRec>
+					<leaf speciesLocation="Arabidopis.thaliana"/>
+				</eventsRec>
+			</clade>
+			<clade>
+				<name>Brassica.oleracea_Bo3g153110.1</name>
+				<eventsRec>
+					<leaf speciesLocation="Brassica.oleracea"/>
+				</eventsRec>
+			</clade>
+		</clade>
+	</clade>
+	<clade>
+		<name>NULL</name>
+		<eventsRec>
+			<speciation speciesLocation="s15"/>
+		</eventsRec>
+		<clade>
+			<name>NULL</name>
+			<eventsRec>
+				<branchingOut speciesLocation="Beta.vulgaris"/>
+			</eventsRec>
+			<clade>
+				<name>Beta.vulgaris_KMT19642</name>
+				<eventsRec>
+					<leaf speciesLocation="Beta.vulgaris"/>
+				</eventsRec>
+			</clade>
+			<clade>
+				<name>Marchantia.polymorpha_Mp8g09060.1.cds</name>
+				<eventsRec>
+					<transferBack destinationSpecies="Marchantia.polymorpha"/>
+					<leaf speciesLocation="Marchantia.polymorpha"/>
+				</eventsRec>
+			</clade>
+		</clade>
+		<clade>
+			<name>NULL</name>
+			<eventsRec>
+				<branchingOut speciesLocation="s12"/>
+			</eventsRec>
+			<clade>
+				<name>NULL</name>
+				<eventsRec>
+					<branchingOut speciesLocation="s12"/>
+				</eventsRec>
+				<clade>
+					<name>NULL</name>
+					<eventsRec>
+						<speciation speciesLocation="s12"/>
+					</eventsRec>
+					<clade>
+						<name>NULL</name>
+						<eventsRec>
+							<speciation speciesLocation="s13"/>
+						</eventsRec>
+						<clade>
+							<name>NULL</name>
+							<eventsRec>
+								<speciation speciesLocation="s14"/>
+							</eventsRec>
+							<clade>
+								<name>Capsicum.annum_PHT83778</name>
+								<eventsRec>
+									<leaf speciesLocation="Capsicum.annum"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>Solanum.tuberosum_PGSC0003DMT400065148</name>
+								<eventsRec>
+									<leaf speciesLocation="Solanum.tuberosum"/>
+								</eventsRec>
+							</clade>
+						</clade>
+						<clade>
+							<name>Coffea.canephora_CDP11938</name>
+							<eventsRec>
+								<leaf speciesLocation="Coffea.canephora"/>
+							</eventsRec>
+						</clade>
+					</clade>
+					<clade>
+						<name>Daucus.carota_KZM93415</name>
+						<eventsRec>
+							<leaf speciesLocation="Daucus.carota"/>
+						</eventsRec>
+					</clade>
+				</clade>
+				<clade>
+					<name>Malus.domestica_mRNA_MD15G0116600</name>
+					<eventsRec>
+						<transferBack destinationSpecies="Malus.domestica"/>
+						<leaf speciesLocation="Malus.domestica"/>
+					</eventsRec>
+				</clade>
+			</clade>
+			<clade>
+				<name>NULL</name>
+				<eventsRec>
+					<transferBack destinationSpecies="s6"/>
+					<speciation speciesLocation="s6"/>
+				</eventsRec>
+				<clade>
+					<name>NULL</name>
+					<eventsRec>
+						<branchingOut speciesLocation="Zea.mays"/>
+					</eventsRec>
+					<clade>
+						<name>NULL</name>
+						<eventsRec>
+							<transferBack destinationSpecies="Triticum.aestivum"/>
+							<duplication speciesLocation="Triticum.aestivum"/>
+						</eventsRec>
+						<clade>
+							<name>NULL</name>
+							<eventsRec>
+								<branchingOut speciesLocation="Triticum.aestivum"/>
+							</eventsRec>
+							<clade>
+								<name>NULL</name>
+								<eventsRec>
+									<transferBack destinationSpecies="s5"/>
+									<speciation speciesLocation="s5"/>
+								</eventsRec>
+								<clade>
+									<name>Hordeum.vulgare_HORVU.MOREX.r3.2HG0184710.1</name>
+									<eventsRec>
+										<leaf speciesLocation="Hordeum.vulgare"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>Triticum.aestivum_TraesCS2A02G387800.1</name>
+									<eventsRec>
+										<leaf speciesLocation="Triticum.aestivum"/>
+									</eventsRec>
+								</clade>
+							</clade>
+							<clade>
+								<name>Triticum.aestivum_TraesCS2B02G405600.1</name>
+								<eventsRec>
+									<leaf speciesLocation="Triticum.aestivum"/>
+								</eventsRec>
+							</clade>
+						</clade>
+						<clade>
+							<name>Triticum.aestivum_TraesCS2D02G385300.1</name>
+							<eventsRec>
+								<leaf speciesLocation="Triticum.aestivum"/>
+							</eventsRec>
+						</clade>
+					</clade>
+					<clade>
+						<name>Zea.mays_Zm00001eb075370_P001</name>
+						<eventsRec>
+							<leaf speciesLocation="Zea.mays"/>
+						</eventsRec>
+					</clade>
+				</clade>
+				<clade>
+					<name>Oryza.sativa_Os04t0539000-01</name>
+					<eventsRec>
+						<leaf speciesLocation="Oryza.sativa"/>
+					</eventsRec>
+				</clade>
+			</clade>
+		</clade>
+	</clade>
+</clade>
+</phylogeny>
+</recGeneTree>
+</recPhylo>
