@@ -1,0 +1,182 @@
+
+OrthoFinder version 3.0.1b1 Copyright (C) 2014 David Emms
+
+2024-12-15 10:47:50 : Starting OrthoFinder 3.0.1b1
+20 thread(s) for highly parallel tasks (BLAST searches etc.)
+2 thread(s) for OrthoFinder algorithm
+
+Results directory: /home/genouest/tp_emp_tps_40958/tp60004/Projet/orthoFinder_output3/Results_Dec15/
+
+Checking required programs are installed
+----------------------------------------
+Test can run "mcl -h" - ok
+Test can run "fastme -i /home/genouest/tp_emp_tps_40958/tp60004/Projet/orthoFinder_output3/Results_Dec15/WorkingDirectory/dependencies/SimpleTest.phy -o /home/genouest/tp_emp_tps_40958/tp60004/Projet/orthoFinder_output3/Results_Dec15/WorkingDirectory/dependencies/SimpleTest.tre" - ok
+
+Dividing up work for BLAST for parallel processing
+--------------------------------------------------
+2024-12-15 10:47:57 : Creating diamond database 1 of 17
+2024-12-15 10:47:57 : Creating diamond database 2 of 17
+2024-12-15 10:47:57 : Creating diamond database 3 of 17
+2024-12-15 10:47:57 : Creating diamond database 4 of 17
+2024-12-15 10:47:57 : Creating diamond database 5 of 17
+2024-12-15 10:47:57 : Creating diamond database 6 of 17
+2024-12-15 10:47:58 : Creating diamond database 7 of 17
+2024-12-15 10:47:58 : Creating diamond database 8 of 17
+2024-12-15 10:47:58 : Creating diamond database 9 of 17
+2024-12-15 10:47:58 : Creating diamond database 10 of 17
+2024-12-15 10:47:58 : Creating diamond database 11 of 17
+2024-12-15 10:47:58 : Creating diamond database 12 of 17
+2024-12-15 10:47:58 : Creating diamond database 13 of 17
+2024-12-15 10:47:58 : Creating diamond database 14 of 17
+2024-12-15 10:47:59 : Creating diamond database 15 of 17
+2024-12-15 10:47:59 : Creating diamond database 16 of 17
+2024-12-15 10:47:59 : Creating diamond database 17 of 17
+
+Running diamond all-versus-all
+------------------------------
+Using 20 thread(s)
+2024-12-15 10:47:59 : This may take some time....
+2024-12-15 10:47:59 : Done 0 of 153
+2024-12-15 12:57:26 : Done 10 of 153
+2024-12-15 14:00:17 : Done 20 of 153
+2024-12-15 14:31:04 : Done 30 of 153
+2024-12-15 15:00:36 : Done 40 of 153
+2024-12-15 15:31:12 : Done 50 of 153
+2024-12-15 16:04:24 : Done 60 of 153
+2024-12-15 16:19:33 : Done 70 of 153
+2024-12-15 16:54:03 : Done 80 of 153
+2024-12-15 17:05:03 : Done 90 of 153
+2024-12-15 17:32:28 : Done 100 of 153
+2024-12-15 17:46:45 : Done 110 of 153
+2024-12-15 18:08:53 : Done 120 of 153
+2024-12-15 18:20:14 : Done 130 of 153
+2024-12-15 18:47:01 : Done all-versus-all sequence search
+
+Running OrthoFinder algorithm
+-----------------------------
+2024-12-15 18:47:03 : Initial processing of each species
+2024-12-15 18:47:53 : Initial processing of species 0 complete
+2024-12-15 18:48:49 : Initial processing of species 2 complete
+2024-12-15 18:48:59 : Initial processing of species 1 complete
+2024-12-15 18:50:28 : Initial processing of species 4 complete
+2024-12-15 18:50:46 : Initial processing of species 3 complete
+2024-12-15 18:51:25 : Initial processing of species 5 complete
+2024-12-15 18:51:52 : Initial processing of species 6 complete
+2024-12-15 18:52:24 : Initial processing of species 7 complete
+2024-12-15 18:53:06 : Initial processing of species 8 complete
+2024-12-15 18:54:34 : Initial processing of species 10 complete
+2024-12-15 18:55:27 : Initial processing of species 9 complete
+2024-12-15 18:56:11 : Initial processing of species 11 complete
+2024-12-15 18:56:21 : Initial processing of species 12 complete
+2024-12-15 18:57:42 : Initial processing of species 13 complete
+2024-12-15 18:58:16 : Initial processing of species 14 complete
+2024-12-15 19:00:49 : Initial processing of species 16 complete
+2024-12-15 19:01:02 : Initial processing of species 15 complete
+2024-12-15 19:02:22 : Connected putative homologues
+2024-12-15 19:02:33 : Written final scores for species 0 to graph file
+2024-12-15 19:02:43 : Written final scores for species 3 to graph file
+2024-12-15 19:02:51 : Written final scores for species 1 to graph file
+2024-12-15 19:02:56 : Written final scores for species 4 to graph file
+2024-12-15 19:03:01 : Written final scores for species 2 to graph file
+2024-12-15 19:03:04 : Written final scores for species 5 to graph file
+2024-12-15 19:03:12 : Written final scores for species 6 to graph file
+2024-12-15 19:03:21 : Written final scores for species 7 to graph file
+2024-12-15 19:03:34 : Written final scores for species 8 to graph file
+2024-12-15 19:03:35 : Written final scores for species 9 to graph file
+2024-12-15 19:03:43 : Written final scores for species 12 to graph file
+2024-12-15 19:03:48 : Written final scores for species 10 to graph file
+2024-12-15 19:03:58 : Written final scores for species 13 to graph file
+2024-12-15 19:04:03 : Written final scores for species 11 to graph file
+2024-12-15 19:04:18 : Written final scores for species 14 to graph file
+2024-12-15 19:04:44 : Written final scores for species 15 to graph file
+2024-12-15 19:05:08 : Written final scores for species 16 to graph file
+
+WARNING: program called by OrthoFinder produced output to stderr
+
+Command: mcl /home/genouest/tp_emp_tps_40958/tp60004/Projet/orthoFinder_output3/Results_Dec15/WorkingDirectory/OrthoFinder_graph.txt -I 1.2 -o /home/genouest/tp_emp_tps_40958/tp60004/Projet/orthoFinder_output3/Results_Dec15/WorkingDirectory/clusters_OrthoFinder_I1.2.txt -te 2 -V all
+
+stdout:
+b''
+stderr:
+b'[mcl] cut <40> instances of overlap\n'
+2024-12-15 19:31:27 : Ran MCL
+
+Writing orthogroups to file
+---------------------------
+
+2024-12-15 19:34:18 : Done orthogroups
+
+Analysing Orthogroups
+=====================
+
+Calculating gene distances
+--------------------------
+2024-12-15 20:00:09 : Done
+
+Inferring gene and species trees
+--------------------------------
+2024-12-15 20:00:15 : Done 0 of 15953
+2024-12-15 20:09:17 : Done 1000 of 15953
+2024-12-15 20:09:25 : Done 2000 of 15953
+2024-12-15 20:09:29 : Done 3000 of 15953
+2024-12-15 20:09:32 : Done 4000 of 15953
+2024-12-15 20:09:34 : Done 5000 of 15953
+2024-12-15 20:09:36 : Done 6000 of 15953
+2024-12-15 20:09:38 : Done 7000 of 15953
+2024-12-15 20:09:40 : Done 8000 of 15953
+2024-12-15 20:09:42 : Done 9000 of 15953
+2024-12-15 20:09:44 : Done 10000 of 15953
+2024-12-15 20:09:47 : Done 11000 of 15953
+2024-12-15 20:09:49 : Done 12000 of 15953
+2024-12-15 20:09:51 : Done 13000 of 15953
+2024-12-15 20:09:53 : Done 14000 of 15953
+2024-12-15 20:09:55 : Done 15000 of 15953
+
+4956 trees had all species present and will be used by STAG to infer the species tree
+
+Best outgroup(s) for species tree
+---------------------------------
+2024-12-15 20:14:10 : Starting STRIDE
+2024-12-15 20:14:17 : Done STRIDE
+Observed 4781 well-supported, non-terminal duplications. 4779 support the best root and 2 contradict it.
+Best outgroup for species tree:
+  Marchantia_polymorpha
+
+Reconciling gene trees and species tree
+---------------------------------------
+Outgroup: Marchantia_polymorpha
+2024-12-15 20:14:17 : Starting Recon and orthologues
+2024-12-15 20:14:17 : Starting OF Orthologues
+2024-12-15 20:14:21 : Done 0 of 15953
+2024-12-15 20:15:22 : Done 1000 of 15953
+2024-12-15 20:15:41 : Done 2000 of 15953
+2024-12-15 20:15:55 : Done 3000 of 15953
+2024-12-15 20:16:06 : Done 4000 of 15953
+2024-12-15 20:16:16 : Done 5000 of 15953
+2024-12-15 20:16:25 : Done 6000 of 15953
+2024-12-15 20:16:33 : Done 7000 of 15953
+2024-12-15 20:16:42 : Done 8000 of 15953
+2024-12-15 20:16:49 : Done 9000 of 15953
+2024-12-15 20:16:55 : Done 10000 of 15953
+2024-12-15 20:17:01 : Done 11000 of 15953
+2024-12-15 20:17:06 : Done 12000 of 15953
+2024-12-15 20:17:11 : Done 13000 of 15953
+2024-12-15 20:17:15 : Done 14000 of 15953
+2024-12-15 20:17:19 : Done 15000 of 15953
+2024-12-15 20:17:24 : Done OF Orthologues
+
+Writing results files
+=====================
+OrthoFinder assigned 747028 genes (93.7% of total) to 26333 orthogroups. Fifty percent of genes were in orthogroups with 70 or more genes (G50 was 70) and were contained in the largest 3578 orthogroups (O50 was 3578). There were 5114 orthogroups with all species present and 0 of these consisted entirely of single-copy genes.
+2024-12-15 20:18:26 : Done orthologues
+
+Results:
+    /home/genouest/tp_emp_tps_40958/tp60004/Projet/orthoFinder_output3/Results_Dec15/
+
+CITATION:
+ When publishing work that uses OrthoFinder please cite:
+ Emms D.M. & Kelly S. (2019), Genome Biology 20:238
+
+ If you use the species tree in your work then please also cite:
+ Emms D.M. & Kelly S. (2017), MBE 34(12): 3267-3278
+ Emms D.M. & Kelly S. (2018), bioRxiv https://doi.org/10.1101/267914

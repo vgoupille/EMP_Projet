@@ -1,0 +1,33 @@
+/home/genouest/tp_emp_tps_40958/tp60004/Projet/script/extract_summary_results_orthofinder.py:19: ParserWarning: Skipping line 26: expected 2 fields, saw 5
+Skipping line 27: expected 2 fields, saw 5
+Skipping line 28: expected 2 fields, saw 5
+Skipping line 29: expected 2 fields, saw 5
+Skipping line 30: expected 2 fields, saw 5
+Skipping line 31: expected 2 fields, saw 5
+Skipping line 32: expected 2 fields, saw 5
+Skipping line 33: expected 2 fields, saw 5
+Skipping line 34: expected 2 fields, saw 5
+Skipping line 35: expected 2 fields, saw 5
+Skipping line 36: expected 2 fields, saw 5
+Skipping line 37: expected 2 fields, saw 5
+Skipping line 38: expected 2 fields, saw 5
+Skipping line 39: expected 2 fields, saw 5
+Skipping line 40: expected 2 fields, saw 5
+Skipping line 41: expected 2 fields, saw 5
+Skipping line 42: expected 2 fields, saw 5
+Skipping line 43: expected 2 fields, saw 5
+Skipping line 44: expected 2 fields, saw 5
+Skipping line 45: expected 2 fields, saw 5
+Skipping line 46: expected 2 fields, saw 5
+
+  stats = pd.read_csv(
+Résultats globaux d'OrthoFinder :
+- Nombre total de gènes : 797343
+- Nombre de gènes assignés à des orthogroupes : 747028 (93.69%)
+- Nombre total d'orthogroupes : 26333
+- G50 (nombre minimal de gènes dans 50% des orthogroupes) : 68
+- O50 (nombre minimal d'orthogroupes contenant 50% des gènes) : 3578
+- Orthogroupes contenant toutes les espèces : 5114
+- Orthogroupes contenant toutes les espèces et uniquement des gènes à copie unique : 0
+
+Les statistiques ont été sauvegardées dans : /home/genouest/tp_emp_tps_40958/tp60004/Projet/orthoFinder_output/Results_Dec15/Comparative_Genomics_Statistics/orthofinder_summary.csv
